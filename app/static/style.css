@@ -1,0 +1,91 @@
+/* Add some basic styling to the container and form */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+/* Style the response and results areas */
+#responseArea, #Results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Scale down the images */
+.scaled-image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.left-control {
+    left: 10px;
+}
+
+.right-control {
+    right: 10px;
+}
+

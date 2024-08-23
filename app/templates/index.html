@@ -1,0 +1,26 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Upload</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="file">Choose a file</label>
+            <input type="file" name="file" id="file">
+            <button type="button" onclick="uploadFile()">Upload</button>
+        </form>
+        <div id="responseArea"></div>
+        <div id="Results">
+            <div id="segmentCarousel" class="carousel">
+                <button id="prevButton" class="carousel-control left-control" style="display: none;">&lt;</button>
+                <div class="carousel-inner"></div>
+                <button id="nextButton" class="carousel-control right-control" style="display: none;">&gt;</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
