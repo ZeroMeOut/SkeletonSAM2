@@ -32,7 +32,7 @@ SkeletonSAM2 is a barebones FastAPI image segmentation application that uses Met
 
 2. Navigate to `http://localhost:8000` in your web browser to access the image segmentation interface.
 
-3.  ![2024-08-23 12-55-20](https://github.com/user-attachments/assets/d0609b86-320f-4d7f-91dc-0b7ebf069f56)
+![2024-08-23 12-55-20](https://github.com/user-attachments/assets/d0609b86-320f-4d7f-91dc-0b7ebf069f56)
 
 ## Contributing
 
