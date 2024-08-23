@@ -34,7 +34,7 @@ SAM2 model checkpoints and place them in the `checkpoints` directory.
 2. Navigate to `http://localhost:8000` in your web browser to access the image segmentation interface.
 
 3. Smol Demo:
-   https://github.com/user-attachments/assets/f092f84c-5143-4270-8441-10c0842a1146)
+   https://github.com/user-attachments/assets/f092f84c-5143-4270-8441-10c0842a1146
 
 
 ## Contributing
