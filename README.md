@@ -28,10 +28,6 @@ SAM2 model checkpoints and place them in the `checkpoints` directory.
 
 1. Start the FastAPI server:
    ```bash
-   uvicorn main:app --reload
-   ```
-   or
-   ```bash
    python main.py
    ```
 
